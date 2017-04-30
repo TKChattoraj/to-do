@@ -1,4 +1,7 @@
 Rails.application.routes.draw do
+  resources :lists
+  resources :items
+  resources :users
   get 'welcome/index'
 
   get 'welcome/about'
